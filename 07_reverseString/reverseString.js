@@ -1,3 +1,10 @@
+function reverseString(stringInput){
+    return stringInput
+    .split("") // splits string by delimiter "" into array
+    .reverse() // reverses order of elements in array
+    .join("") // joins elements of array into string with delimeter ""
+}
+
 
 // alert(reverseString("Test"));
 // Do not edit below this line
